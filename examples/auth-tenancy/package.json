@@ -1,0 +1,24 @@
+{
+  "name": "@keystone-6/example-auth-tenancy",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build",
+    "postinstall": "keystone postinstall"
+  },
+  "dependencies": {
+    "@keystone-6/auth": "workspace:^",
+    "@keystone-6/core": "workspace:^",
+    "@prisma/client": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "lodash.merge": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/lodash.merge": "^4.6.9",
+    "prisma": "^5.0.0",
+    "typescript": "~5.0.0"
+  }
+}
